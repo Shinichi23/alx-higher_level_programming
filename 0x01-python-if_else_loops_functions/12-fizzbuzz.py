@@ -6,6 +6,6 @@ def fizzbuzz():
         elif n % 3 == 0:
             print("Fizz", end=" ")
         elif n % 5 == 0:
-            print("Fizz", end=" ")
+            print("Buzz", end=" ")
         else:
             print(f"{n:d}", end=" ")
