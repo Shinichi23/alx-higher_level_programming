@@ -2,4 +2,6 @@
 def multiple_returns(sentence):
     a = len(sentence)
     b = sentence[0]
-    print("Length: {:d} - First character: {}".format(a, b))
+    if sentence = "":
+        return (0, None)
+    return (a, b)
