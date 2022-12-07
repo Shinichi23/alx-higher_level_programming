@@ -4,6 +4,6 @@ def complex_delete(a_dictionary, value):
 
     for v in list_keys:
         if v == a_dictionary.get(v):
-            a_dictionary.pop(v)
+            del a_dictionary[v]
 
-    return a_dictionary
+    return (a_dictionary)
